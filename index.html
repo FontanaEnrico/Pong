@@ -286,7 +286,7 @@ const isMobile = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 if (isMobile) {
   document.getElementById('start-hint').textContent    = 'TOCCA PER INIZIARE';
   document.getElementById('controls-hint').textContent = '';
-  document.getElementById('info-bar').textContent      = 'PRIMA A 7 PUNTI VINCE';
+  document.getElementById('info-bar').textContent      = 'VINCE CHI ARRIVA A 7 PUNTI';
 } else {
   document.getElementById('start-hint').innerHTML    = 'PREMI <span style="color:var(--green)">SPAZIO</span> PER INIZIARE';
   document.getElementById('controls-hint').textContent = '';
